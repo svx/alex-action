@@ -20,7 +20,7 @@ On your GitHub Actions workflow file, add the following step:
 
 ```yaml
 steps:
-  uses: theashraf/alex-action@master
+  uses: docker://testthedocs/alex:0.0.1
 ```
 
 This will run the "alex ." command without arguments.
